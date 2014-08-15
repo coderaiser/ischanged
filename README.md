@@ -11,17 +11,17 @@ There is no 100% assurance that is was, but it works much faster then check by h
 ## Hot to use?
 
 ```js
-    var ischanged = require('ischanged');
+var ischanged = require('ischanged');
+
+ischanged('/etc/passwd', function(error, is) {
+    console.log(is);
+    //true
     
     ischanged('/etc/passwd', function(error, is) {
         console.log(is);
-        //true
-        
-        ischanged('/etc/passwd', function(error, is) {
-            console.log(is);
-            //false
-        }
+        //false
     }
+}
 ```
 
 ## How it works?
