@@ -1,0 +1,23 @@
+{
+  "name": "ischanged",
+  "version": "1.0.0",
+  "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
+  "description": "Is file changed check",
+  "homepage": "http://github.com/coderaiser/ischanged",
+  "main": "lib/ischanged.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coderaiser/ischanged.git"
+  },
+  "keywords": [
+    "file",
+    "time",
+    "changes"
+  ],
+  "dependencies": {
+    "timem": "~1.0.1",
+    "util-io": "~1.2.3"
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}
