@@ -16,7 +16,7 @@
   ],
   "dependencies": {
     "timem": "~1.0.1",
-    "util-io": "~1.4.0"
+    "util-io": "~1.6.1"
   },
   "devDependencies": {},
   "license": "MIT"
