@@ -15,7 +15,7 @@
     "changes"
   ],
   "dependencies": {
-    "timem": "~1.0.1",
+    "timem": "~1.1.0",
     "util-io": "~1.6.1"
   },
   "devDependencies": {},
