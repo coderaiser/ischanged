@@ -15,6 +15,7 @@
     "changes"
   ],
   "dependencies": {
+    "mkdirp": "~0.5.0",
     "timem": "~1.1.0",
     "util-io": "~1.6.1"
   },
