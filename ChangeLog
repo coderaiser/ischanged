@@ -1,3 +1,9 @@
+2014.12.22, v1.0.8
+
+feature:
+- (package) rm util-io; add checkpu, execon, try-catch
+
+
 2014.11.24, v1.0.7
 
 fix:
