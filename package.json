@@ -16,10 +16,10 @@
   ],
   "dependencies": {
     "checkup": "~1.0.2",
-    "execon": "~1.1.0",
     "mkdirp": "~0.5.0",
     "timem": "~1.1.0",
-    "try-catch": "~1.0.0"
+    "try-catch": "~1.0.0",
+    "tryrequire": "~1.1.5"
   },
   "devDependencies": {},
   "license": "MIT"
