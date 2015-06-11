@@ -1,3 +1,9 @@
+2015.06.11, v1.0.12
+
+feature:
+- (ischanged) try-catch, tryrequire -> readjson
+
+
 2015.06.09, v1.0.11
 
 feature:
