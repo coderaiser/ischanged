@@ -1,3 +1,9 @@
+2015.06.11, v1.0.13
+
+fix:
+- (ischanged) get back try-require
+
+
 2015.06.11, v1.0.12
 
 feature:
