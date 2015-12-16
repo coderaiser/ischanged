@@ -1,3 +1,9 @@
+2015.12.16, v1.0.17
+
+feature:
+- (ischanged) fs.writeFile -> writejson
+
+
 2015.06.22, v1.0.16
 
 feature:
