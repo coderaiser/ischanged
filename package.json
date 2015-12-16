@@ -19,7 +19,8 @@
     "debug": "~2.2.0",
     "mkdirp": "~0.5.0",
     "readjson": "~1.1.0",
-    "timem": "~1.1.0"
+    "timem": "~1.1.0",
+    "writejson": "~1.1.0"
   },
   "devDependencies": {},
   "license": "MIT"
