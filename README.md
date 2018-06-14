@@ -11,13 +11,13 @@ There is no 100% assurance that is was, but it works much faster then check by h
 ## Hot to use?
 
 ```js
-var ischanged = require('ischanged');
+const ischanged = require('ischanged');
 
-ischanged('/etc/passwd', function(error, is) {
+ischanged('/etc/passwd', (error, is) => {
     console.log(is);
     //true
     
-    ischanged('/etc/passwd', function(error, is) {
+    ischanged('/etc/passwd', (error, is) => {
         console.log(is);
         //false
     }
@@ -26,7 +26,7 @@ ischanged('/etc/passwd', function(error, is) {
 
 ## How it works?
 
-`Ischanged` saves time of file modification to file `ischanged/<uid>/changes.json` 
+`Ischanged` saves time of file modification to file `ischanged/<uid>/changes.json`
 in Temp directory and then checks whas it changed or not.
 
 So it something like `watch` but:
@@ -37,3 +37,4 @@ So it something like `watch` but:
 ## License
 
 MIT
+

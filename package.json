@@ -9,19 +9,29 @@
     "type": "git",
     "url": "git://github.com/coderaiser/ischanged.git"
   },
+  "scripts": {
+    "lint": "redrun lint:*",
+    "lint:lib": "eslint lib"
+  },
   "keywords": [
     "file",
     "time",
     "changes"
   ],
   "dependencies": {
-    "checkup": "~1.3.0",
+    "checkup": "^1.3.0",
     "debug": "^3.0.0",
-    "mkdirp": "~0.5.0",
-    "readjson": "~1.1.0",
-    "timem": "~1.1.0",
+    "mkdirp": "^0.5.0",
+    "readjson": "^1.1.0",
+    "timem": "^1.1.0",
     "writejson": "~1.1.0"
   },
-  "devDependencies": {},
-  "license": "MIT"
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-node": "^6.0.1"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  }
 }
