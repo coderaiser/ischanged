@@ -10,8 +10,8 @@
     "url": "git://github.com/coderaiser/ischanged.git"
   },
   "scripts": {
-    "lint": "madrun lint",
-    "lint:lib": "madrun lint:lib"
+    "fix:lint": "madrun fix:lint",
+    "lint": "madrun lint"
   },
   "keywords": [
     "file",
