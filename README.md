@@ -13,15 +13,13 @@ There is no 100% assurance that is was, but it works much faster then check by h
 ```js
 const ischanged = require('ischanged');
 
-ischanged('/etc/passwd', (error, is) => {
-    console.log(is);
-    //true
-    
-    ischanged('/etc/passwd', (error, is) => {
-        console.log(is);
-        //false
-    }
-}
+const is = await ischanged('/etc/passwd');
+// returns
+true
+
+await ischanged('/etc/passwd');
+// returns
+false
 ```
 
 ## How it works?
