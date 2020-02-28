@@ -10,8 +10,8 @@
     "url": "git://github.com/coderaiser/ischanged.git"
   },
   "scripts": {
-    "lint": "redrun lint:*",
-    "lint:lib": "eslint lib"
+    "lint": "madrun lint",
+    "lint:lib": "madrun lint:lib"
   },
   "keywords": [
     "file",
@@ -24,11 +24,15 @@
     "mkdirp": "^1.0.3",
     "readjson": "^2.0.1",
     "timem": "^1.1.0",
+    "try-to-catch": "^3.0.0",
     "writejson": "^3.0.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
-    "eslint-plugin-node": "^11.0.0"
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-putout": "^3.2.1",
+    "madrun": "^5.4.4",
+    "putout": "^7.16.0"
   },
   "license": "MIT",
   "engines": {
