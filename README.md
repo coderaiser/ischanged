@@ -1,5 +1,13 @@
-Ischanged
-=========
+# Ischanged [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][DependencyStatusIMGURL]][DependencyStatusURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL] [![Coverage Status][CoverageIMGURL]][CoverageURL]
+
+[NPMURL]: https://npmjs.org/package/ischanged "npm"
+[NPMIMGURL]: https://img.shields.io/npm/v/ischanged.svg?style=flat&longCache=true
+[BuildStatusURL]: https://github.com/coderaiser/ischanged/actions?query=workflow%3A%22Node+CI%22 "Build Status"
+[BuildStatusIMGURL]: https://github.com/coderaiser/ischanged/workflows/Node%20CI/badge.svg
+[DependencyStatusIMGURL]: https://david-dm.org/coderaiser/ischanged.svg?path=packages/ischanged
+[DependencyStatusURL]: https://david-dm.org/coderaiser/ischanged?path=packages/ischanged "Dependency Status"
+[CoverageURL]: https://coveralls.io/github/coderaiser/ischanged?branch=master
+[CoverageIMGURL]: https://coveralls.io/repos/coderaiser/ischanged/badge.svg?branch=master&service=github
 
 Check time of file modification. If it's changed probable file was changed to.
 There is no 100% assurance that is was, but it works much faster then check by hash.
@@ -35,4 +43,3 @@ So it something like `watch` but:
 ## License
 
 MIT
-

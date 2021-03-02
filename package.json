@@ -28,14 +28,13 @@
     "writejson": "^3.0.0"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-putout": "^3.2.1",
-    "madrun": "^5.4.4",
-    "putout": "^7.16.0"
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-putout": "^7.2.1",
+    "madrun": "^8.8.1",
+    "putout": "^15.4.3"
   },
   "license": "MIT",
   "engines": {
-    "node": ">=10.0.0"
+    "node": ">=14"
   }
 }
